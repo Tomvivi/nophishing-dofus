@@ -3,28 +3,41 @@
 <head>
 <meta charset="UTF-8">
 <title>{{KEYWORD}} – Attention phishing Dofus</title>
-<meta name="description" content="Attention aux arnaques Dofus liées au mot-clé {{KEYWORD}}">
+<meta name="description" content="Attention aux arnaques Dofus liées au mot-clé {{KEYWORD}}. Ne saisissez jamais vos identifiants sur un site suspect.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body { font-family: Arial, sans-serif; background-color: #fff; margin:0; padding:0; color:#222; }
+  header { text-align:center; padding:20px; background-color:#fff; }
+  header img { display:block; margin:20px auto; max-width:700px; max-height:400px; width:auto; height:auto; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.1); }
+  main { padding:20px; max-width:970px; margin:auto; background-color:#fff; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.1);}
+  h1,h2 { color:#d6336c; }
+  ul { list-style-type: disc; margin-left: 20px; }
+  a { color:#007bff; text-decoration:none; }
+  a:hover { text-decoration: underline; }
+  .warning { background-color:#ffe6e6; padding:10px; border-left:5px solid #d6336c; margin:15px 0; }
+</style>
 </head>
 <body>
 
-<h1>⚠️ Attention – Tentative de phishing Dofus</h1>
+<header>
+  <h1>⚠️ Attention – Mot-clé : {{KEYWORD}}</h1>
+  <img src="https://staticns.ankama.com/comm/2019_07/WIP-20-06-IlluAlertePishing.jpg" alt="Alerte phishing Dofus">
+</header>
 
-<p>
-Vous avez recherché : <strong>{{KEYWORD}}</strong><br>
-Des sites frauduleux utilisent ce mot-clé pour voler des comptes.
-</p>
+<main>
+  <p>Des sites frauduleux utilisent le mot-clé <strong>{{KEYWORD}}</strong> pour tromper les joueurs et voler des comptes Dofus.</p>
 
-<h2>Protégez votre compte</h2>
+  <div class="warning">
+    <h2>Conseils de sécurité :</h2>
+    <ul>
+      <li>Ne jamais effectuer une recherche sur Google ou suivre les instructions d'un joueur pour accéder à un site suspect.</li>
+      <li>Vérifier que l'URL contient "<strong>ankama.com</strong>" avant de saisir vos identifiants.</li>
+      <li>Si vous avez déjà complété un formulaire ou suivi les instructions d’un site suspect, <a href="https://account.ankama.com/fr/compte/securiser-mon-compte">sécurisez immédiatement votre compte</a>.</li>
+    </ul>
+  </div>
 
-<p>
-👉 <a href="https://account.ankama.com/fr/compte/securiser-mon-compte">
-Sécuriser mon compte Ankama
-</a>
-</p>
-
-<p>
-Ce site est un site communautaire de prévention.
-</p>
+  <p>Chaque mot-clé actif est listé sur la <a href="../index.html">page principale</a>.</p>
+</main>
 
 </body>
 </html>
