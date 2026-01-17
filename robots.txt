@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tomvivi.github.io/nophishing-dofus/sitemap.xml
